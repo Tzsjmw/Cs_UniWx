@@ -1,0 +1,1 @@
+<view class="content"><view class="text-area"><button class="title" bindtap="{{a}}">读取微信文件</button></view><view class="text-area"><button class="title" bindtap="{{b}}">读取照片</button></view><view class="text-area"><button class="title" bindtap="{{c}}">读取视频</button></view><view class="text-area"><button class="title" bindtap="{{d}}">读取照片/视频</button></view></view>

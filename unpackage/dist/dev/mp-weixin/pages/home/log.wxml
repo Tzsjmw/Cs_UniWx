@@ -1,0 +1,1 @@
+<view class="content"><view wx:for="{{a}}" wx:for-item="log" wx:key="c"><text>{{log.a}}: {{log.b}}</text></view><button bindtap="{{b}}" type="warn">删除本地记录</button></view>

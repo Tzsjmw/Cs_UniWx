@@ -1,0 +1,1 @@
+<view class="content"><image class="logo" src="/static/guide1.png"></image><view class="text-area"><button class="title" bindtap="{{a}}">发送订阅消息</button></view></view>

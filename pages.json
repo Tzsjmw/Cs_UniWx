@@ -1,0 +1,73 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/test/index",
+			"style": {
+				"navigationBarTitleText": "文件读取"
+			}
+		},
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/home/log",
+			"style": {
+				"navigationBarTitleText": "日志"
+			}
+		},
+		{
+			"path": "pages/map/index",
+			"style": {
+				"navigationBarTitleText": "地图"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "首页",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"borderStyle": "black", //边框颜色
+		"backgroundColor": "#F7F7F7", //背景颜色
+		"color": "#000000", //默认颜色
+		"selectedColor": "#07C160", //选中的颜色
+		"list": [{
+				"iconPath": "static/ts.png",
+				"selectedIconPath": "static/ts1.png",
+				"text": "消息",
+				"pagePath": "pages/index/index"
+			},
+			{
+				"iconPath": "static/dy.png",
+				"selectedIconPath": "static/dy1.png",
+				"text": "文件",
+				"pagePath": "pages/test/index"
+			},
+			{
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/home1.png",
+				"text": "我的",
+				"pagePath": "pages/home/index"
+			},
+			{
+				"iconPath": "static/map.png",
+				"selectedIconPath": "static/map1.png",
+				"text": "地图",
+				"pagePath": "pages/map/index"
+			}
+		]
+	}
+}

@@ -1,0 +1,1 @@
+<view class="content"><view class="userinfo-avatar" bindtap="{{b}}"><image src="{{a}}"/></view><text>{{c}}</text><view> 手机版本:{{d}}</view></view>

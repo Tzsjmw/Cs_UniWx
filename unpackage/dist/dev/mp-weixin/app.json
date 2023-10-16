@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/test/index",
+    "pages/home/index",
+    "pages/home/log",
+    "pages/map/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "首页",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#F7F7F7",
+    "color": "#000000",
+    "selectedColor": "#07C160",
+    "list": [
+      {
+        "iconPath": "static/ts.png",
+        "selectedIconPath": "static/ts1.png",
+        "text": "消息",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "iconPath": "static/dy.png",
+        "selectedIconPath": "static/dy1.png",
+        "text": "文件",
+        "pagePath": "pages/test/index"
+      },
+      {
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home1.png",
+        "text": "我的",
+        "pagePath": "pages/home/index"
+      },
+      {
+        "iconPath": "static/map.png",
+        "selectedIconPath": "static/map1.png",
+        "text": "地图",
+        "pagePath": "pages/map/index"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
